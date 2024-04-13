@@ -1,0 +1,331 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "rsg-backend",
+    "dateExported": "2024-04-13T06:09:06.590Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "273bf56e-09a9-454b-8a65-ee88f79535a1",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "getUsuarios",
+            "url": "http://localhost:8000/api/users/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-13T05:47:18.806Z",
+            "modified": "2024-04-13T05:47:18.806Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accountId\": null,\n  \"userId\": 1,\n  \"concept\": \"Viaticos\",\n  \"amount\": \"600.00\",\n  \"date\": \"2024-04-12\",\n  \"status\": null\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9c9da6e6-769c-4923-b9d7-46f365fec6e9",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "getTransacciones",
+            "url": "http://localhost:8000/api/transactions/",
+            "method": "GET",
+            "sortNum": 12500,
+            "created": "2024-04-13T06:06:08.352Z",
+            "modified": "2024-04-13T06:06:22.454Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accountId\": null,\n  \"userId\": 1,\n  \"concept\": \"Viaticos\",\n  \"amount\": \"600.00\",\n  \"date\": \"2024-04-12\",\n  \"status\": null\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3f69c2cc-bf0f-40af-95a3-cedf14957ad3",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "getTransaccion",
+            "url": "http://localhost:8000/api/transactions/3",
+            "method": "GET",
+            "sortNum": 13750,
+            "created": "2024-04-13T06:06:50.129Z",
+            "modified": "2024-04-13T06:07:05.244Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accountId\": null,\n  \"userId\": 1,\n  \"concept\": \"Viaticos\",\n  \"amount\": \"600.00\",\n  \"date\": \"2024-04-12\",\n  \"status\": null\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2319a92b-4e8c-4589-8755-fa2170b1b09e",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "deleteTransaccion",
+            "url": "http://localhost:8000/api/transactions/3",
+            "method": "DELETE",
+            "sortNum": 14062.5,
+            "created": "2024-04-13T06:08:27.488Z",
+            "modified": "2024-04-13T06:08:45.016Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0e5be97a-ac43-453d-bb08-2ef99a352c11",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "postTransaccion",
+            "url": "http://localhost:8000/api/transactions/",
+            "method": "POST",
+            "sortNum": 14375,
+            "created": "2024-04-13T06:07:26.800Z",
+            "modified": "2024-04-13T06:08:06.984Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accountId\": 3,\n  \"typeTransactions\": \"Ingreso\",\n  \"amount\": \"300.00\",\n  \"userId\": 1,\n  \"status\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5baacc11-4374-424e-a0f8-b590c1c2e5a2",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "getGastos",
+            "url": "http://localhost:8000/api/expenses/",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-04-13T06:00:42.056Z",
+            "modified": "2024-04-13T06:00:56.222Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accountId\": null,\n  \"userId\": 1,\n  \"concept\": \"Viaticos\",\n  \"amount\": \"600.00\",\n  \"date\": \"2024-04-12\",\n  \"status\": null\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a8d08dd1-5216-4c3d-9896-a0b75a686e82",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "getGasto",
+            "url": "http://localhost:8000/api/expenses/1",
+            "method": "GET",
+            "sortNum": 17500,
+            "created": "2024-04-13T06:01:40.239Z",
+            "modified": "2024-04-13T06:01:55.898Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accountId\": null,\n  \"userId\": 1,\n  \"concept\": \"Viaticos\",\n  \"amount\": \"600.00\",\n  \"date\": \"2024-04-12\",\n  \"status\": null\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ef850a08-33bf-45da-9adf-a4ea615eb38a",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "postGasto",
+            "url": "http://localhost:8000/api/expenses/",
+            "method": "POST",
+            "sortNum": 18750,
+            "created": "2024-04-13T06:02:08.215Z",
+            "modified": "2024-04-13T06:03:11.459Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accountId\": 1,\n  \"userId\": 1,\n  \"concept\": \"Hospedaje\",\n  \"amount\": \"1200.00\",\n  \"status\": 1\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4dac1855-591e-4d3a-911e-21b6c4f37fbb",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "deleteGasto",
+            "url": "http://localhost:8000/api/expenses/2",
+            "method": "DELETE",
+            "sortNum": 19375,
+            "created": "2024-04-13T06:05:27.518Z",
+            "modified": "2024-04-13T06:05:42.805Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dc32fe0b-1f0d-43d0-8dd5-47c9fe0f79eb",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "getUsuario",
+            "url": "http://localhost:8000/api/users/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-13T05:47:57.029Z",
+            "modified": "2024-04-13T05:47:57.029Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accountId\": null,\n  \"userId\": 1,\n  \"concept\": \"Viaticos\",\n  \"amount\": \"600.00\",\n  \"date\": \"2024-04-12\",\n  \"status\": null\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4d0aafe4-9781-4314-bb3e-310abfb1ea29",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "postUsuario",
+            "url": "http://localhost:8000/api/users/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-04-13T05:49:57.374Z",
+            "modified": "2024-04-13T05:49:57.374Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Alex lora\",\n  \"email\": \"alex@gmail.com\",\n  \"pass\": \"00112365\",\n  \"status\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0ae3b993-fd0c-4bb0-b233-d5e0def674f5",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "putUsuario",
+            "url": "http://localhost:8000/api/users/9",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-04-13T05:51:27.229Z",
+            "modified": "2024-04-13T05:51:27.229Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Alex Lora\",\n  \"email\": \"aleeeex@gmail.com\",\n  \"pass\": \"00112365\",\n  \"status\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "83041c4e-bc5a-4a3e-b2c8-89aa617b8942",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "deleteUsuario",
+            "url": "http://localhost:8000/api/users/9",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-04-13T05:52:03.888Z",
+            "modified": "2024-04-13T05:52:03.888Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Alex Lora\",\n  \"email\": \"aleeeex@gmail.com\",\n  \"pass\": \"00112365\",\n  \"status\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b5ad088b-c12a-47d3-bdc1-a46f690a2286",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "getCuentas",
+            "url": "http://localhost:8000/api/accounts/",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-04-13T05:53:18.954Z",
+            "modified": "2024-04-13T05:53:18.954Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"accountId\": null,\n  \"userId\": 1,\n  \"concept\": \"Viaticos\",\n  \"amount\": \"600.00\",\n  \"date\": \"2024-04-12\",\n  \"status\": null\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f55af948-a7ee-4789-823b-3753fe5485a1",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "getCuenta",
+            "url": "http://localhost:8000/api/accounts/1",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-04-13T05:54:34.094Z",
+            "modified": "2024-04-13T05:54:34.094Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "105908d9-9aeb-4fa0-baa0-b2f5f23ec861",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "postCuenta",
+            "url": "http://localhost:8000/api/accounts/",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-04-13T05:56:48.171Z",
+            "modified": "2024-04-13T05:56:48.171Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\": 2,\n  \"typeAccount\": \"Internacional\",\n  \"info\": \"cuenta externa\",\n  \"nameAccount\": \"USD inter\",\n  \"initialCapital\": \"1000\",\n  \"status\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "39562511-8e95-4ca5-bcf1-5c2e8146502c",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "putCuenta",
+            "url": "http://localhost:8000/api/accounts/5",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-04-13T05:58:02.402Z",
+            "modified": "2024-04-13T05:58:02.402Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\": 2,\n  \"typeAccount\": \"Internacional 2.0\",\n  \"info\": \"cuenta externa\",\n  \"nameAccount\": \"USD inter\",\n  \"initialCapital\": \"1000\",\n  \"status\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d800c1eb-41a7-4970-9719-d2139db62bf3",
+            "colId": "0d6a3a2a-f0cc-404a-bc9a-bfab4efa8d85",
+            "containerId": "",
+            "name": "deleteCuenta",
+            "url": "http://localhost:8000/api/accounts/5",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2024-04-13T05:58:40.661Z",
+            "modified": "2024-04-13T05:58:40.662Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

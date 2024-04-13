@@ -1,6 +1,9 @@
 import express, { Application } from 'express';
 import cors from 'cors'
 import userRoutes from '../routes/user';
+import accountRoutes from '../routes/account';
+import transactionRoutes from '../routes/transaction';
+import expenseRoutes from '../routes/expense';;
 import db from '../db/connection';
 
 class Server {
@@ -8,7 +11,10 @@ class Server {
     private app: Application;
     private port: string;
     private apiPaths = {
-        users: '/api/users'
+        users: '/api/users',
+        accounts: '/api/accounts',
+        transactions: '/api/transactions',
+        expenses: '/api/expenses',
     }
 
     constructor(){
@@ -27,7 +33,7 @@ class Server {
             console.log('Database online');
 
         } catch (error) {
-            throw new Error(error);
+            console.log(error)
         }
     }
 
@@ -41,7 +47,10 @@ class Server {
 
 
     routes() {
-        this.app.use( this.apiPaths.users, userRoutes )
+        this.app.use(this.apiPaths.users, userRoutes);
+        this.app.use(this.apiPaths.accounts, accountRoutes);
+        this.app.use(this.apiPaths.transactions, transactionRoutes);
+        this.app.use(this.apiPaths.expenses, expenseRoutes);
     }
 
     listen() {
