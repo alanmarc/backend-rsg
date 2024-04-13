@@ -1,30 +1,30 @@
-#Backend
+# Backend
 
 Este es un repositorio para el backend de una aplicación. Proporciona funcionalidades relacionadas con [descripción de tu aplicación].
 
-##Instalación
+## Instalación
 
 1. Clona este repositorio en tu máquina local.
 2. Ejecuta `npm install` para instalar las dependencias del proyecto.
 
-##Configuración
+## Configuración
 
 1. Crea un archivo `.env` en la raíz del proyecto y configura las variables de entorno según sea necesario. Puedes seguir el formato de `.env.example` para las variables requeridas.
 2. Configura tu base de datos y ajusta las configuraciones en el archivo `db/connection.ts` según sea necesario para Sequelize.
 
-##Uso
+## Uso
 
 1. Ejecuta `npm start` para iniciar el servidor de desarrollo.
 2. Accede a las rutas de la API utilizando herramientas como Postman o tu navegador web.
 
-##Scripts
+## Scripts
 
 - `npm start`: Inicia el servidor de desarrollo.
 - `npm run build`: Compila el proyecto TypeScript a JavaScript.
 - `npm test`: Ejecuta pruebas (si se agregan en el futuro).
 - `npm run lint`: Ejecuta linting utilizando TSLint.
 
-##Dependencias
+## Dependencias
 
 - [Express](https://expressjs.com/): Framework web para Node.js.
 - [Sequelize](https://sequelize.org/): ORM para Node.js, soporta múltiples bases de datos.
@@ -33,7 +33,7 @@ Este es un repositorio para el backend de una aplicación. Proporciona funcional
 - [MySQL2](https://www.npmjs.com/package/mysql2): Cliente MySQL para Node.js.
 - [TypeScript](https://www.typescriptlang.org/): Superset de JavaScript con tipado estático.
 
-##Contribución
+## Contribución
 
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
@@ -42,4 +42,3 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 3. Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`).
 4. Sube tus cambios a la rama (`git push origin feature/nueva-funcionalidad`).
 5. Crea un nuevo Pull Request.
-
